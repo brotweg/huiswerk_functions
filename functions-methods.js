@@ -7,9 +7,7 @@
 // ---- Verwachte uitkomsten:
 // getEmailDomain("n.eeken@novi-education.nl") geeft novi-education.nl
 // getEmailDomain("t.mellink@novi.nl") geeft novi.nl
-// getEmailDomain("a.wiersma@outlook.com") geeft outlook.com
-
-
+// getEmailDomain("a.wiersma@outlook.com") geeft outlook.
 
 
 /* Opdracht  2 */
