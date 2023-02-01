@@ -60,3 +60,15 @@ else {
 // checkEmailValidity("n.eekenanovi.nl") geeft false - want geen @
 // checkEmailValidity("n.eeken@novinl.") geeft false - want de punt mag niet als laatst
 // checkEmailValidity("tessmellink@novi,nl") geeft false - want er staat een komma in
+
+function checkEmailValidity(email) {
+    const inclusion = email.includes("@");
+    const  exclusion = email.search(",") === -1;
+    const  dotfinder = !email.endsWith(".");
+    return inclusion && exclusion && dotfinder;
+
+}
+
+const address = checkEmailValidity("hello@world.com");
+
+console.log(address);
